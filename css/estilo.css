@@ -1,0 +1,71 @@
+/* header */
+.logohead{
+    padding: 15px;
+    width: 50%;
+}
+h1{
+    display: flex;
+    justify-content:flex-start;
+    position: relative;
+    left:150px;
+}
+.fondo{
+    background-color: yellowgreen;
+    background-attachment: fixed;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    color: black;
+   
+
+}
+
+
+p{
+    color: black;
+    font-size: 25px;
+    padding: 25px;
+}
+.imagenmedio{
+    display:flex;
+    padding: 50px;
+    margin:15px
+}
+img{
+    width: 25%
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction:row;
+    height: 250px;
+    
+    background-color: yellowgreen;
+
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 25%;
+    padding: 15px;
+}
+.foo{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+.direc{
+    font-size: 25px;
+    color: red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.carrusel{
+    width: 100%;
+    padding-top: 15px;
+}
