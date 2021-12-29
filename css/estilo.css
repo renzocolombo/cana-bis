@@ -1,13 +1,15 @@
 /* header */
 .logohead{
-    padding: 15px;
+    padding: 10px;
     width: 50%;
+    margin: 20px;
 }
 h1{
     display: flex;
     justify-content:flex-start;
     position: relative;
     left:150px;
+    border: solid 3px black;
 }
 .fondo{
     background-color: yellowgreen;
@@ -16,12 +18,17 @@ h1{
 }
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    text-align: end;
     color: black;
-   
+   position: relative;
+   bottom: 35px;
 
 }
-
+li{
+    color: black;
+    font-size: 20px;
+}
 
 p{
     color: black;
@@ -69,3 +76,20 @@ footer{
     width: 100%;
     padding-top: 15px;
 }
+ 
+@media only screen and (min-width: 0px) and (max-width: 768px){
+
+   img{
+      width: 40%;
+      height: 25%;
+   }
+   p{
+       font-size: 15px;
+   } 
+   .logohead{
+    height: 100%;
+
+   }
+ 
+
+}     
