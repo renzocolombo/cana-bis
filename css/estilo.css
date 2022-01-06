@@ -119,6 +119,7 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 15px;
 }
 .carrusel{
     width: 100%;
