@@ -23,8 +23,8 @@ h1{
     justify-content: right;
     text-align: end;
     color: black;
-   position: relative;
-   bottom: 35px;
+   /* position: relative;
+   bottom: 35px; */
 
 }
 li{
@@ -52,11 +52,11 @@ img{
 }
 .img1{
    position: relative;
-   left: 115px;
+   left: 160px;
 }
 .img2{
     position: relative;
-    left: 115px;
+    left: 160px;
 }
 .porque{
     display: flex;
@@ -274,11 +274,12 @@ h1{
     padding: 15px;
 }
 .img1{
-    height: 200px;
+    height: 150px;
     position: relative;
     left: 85px;
 }
 .img2{
+    height: 150px;
     position: relative;
     left: 85px;
 }
@@ -343,6 +344,9 @@ footer{
     width: 100px;
     height: 38px;
     padding: 15px;
+}
+iframe{
+    width: 100%;
 }
 
 }
