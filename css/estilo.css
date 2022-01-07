@@ -320,6 +320,7 @@ h1{
 .terminosp{
     grid-area: titulo;
     position: relative;
+    left:55px ;
     
 }
 .politicasnav{
