@@ -313,6 +313,7 @@ h1{
 }
 .nav ul{
     grid-area: nav;
+   
 
 }
 
@@ -321,8 +322,10 @@ h1{
     position: relative;
     
 }
-
-
+.politicasnav{
+    position: relative;
+    left: 15px;
+}
 
 .texto3{
      
