@@ -11,6 +11,9 @@ h1{
     left:150px; 
     
 }
+a{
+    text-decoration: none;
+}
 .fondo{
     /* background-image: url(../img/fondo1.jpg); */
     background-color: yellowgreen;
@@ -86,14 +89,18 @@ footer{
 .texto1{
     color: blue;
     
-    
+       
 
 }
-.textofoo1{
-    display: inline-block;
+.texto2{
+    color: blue;
+    height: 7px;
+}
+/* .textofoo1{
+    display: inline-block; */
    
     
-}
+
 :hover.texto1{
     color: brown;
     font-size: 20px;
@@ -115,7 +122,7 @@ footer{
 .direc{
     font-size: 25px;
     color: red;
-    background-color:goldenrod;
+    background-color:yellowgreen;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -163,7 +170,7 @@ img{
                           "p p p p"
                           "footer footer footer footer";
                 
-     grid-template-rows: 200px auto 1000px 150px ;
+     grid-template-rows: 200px auto 1000px auto ;
      grid-template-columns: repeat(4, 25%);
      
      
@@ -184,6 +191,10 @@ img{
 
 
 
+}
+.navheader{
+    display: flex;
+    justify-content: end;
 }
 .terminosp{
     display: flex;
@@ -212,6 +223,21 @@ footer{
     grid-area: footer;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.redes1{
+    display: flex;
+    width: 25%;
+}
+.redes4{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+}
+.redes2{
+    display: flex;
+    padding: 15px;
 }
 /* ubicacion */
 .ubip{
@@ -227,11 +253,13 @@ footer{
 }
 
 
+
 @media only screen and (min-width: 0px) and (max-width: 768px){
 
    
    img{
       width: 40%;
+      
       
       /* height: 25%; */
    }
@@ -239,14 +267,27 @@ footer{
    p{
        font-size: 15px;
    } 
+   h3{
+       font-size: 20px;
+   }
    .logohead{
     height: 70%;
 
 
    }
+   .logofoo1{
+       display: flex;
+       justify-content: center;
+   }
+   .redes{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
    ul li{
-       padding: 2px;
+       padding: 0px;
        font-size: 15px;
+       
    }
  .container-fluid{
      overflow: hidden;
@@ -268,7 +309,11 @@ h1{
   
     
 }
-
+.politicaslogo{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
 .logofoo{
     width: 50%;
     height: 50%;
@@ -310,27 +355,42 @@ h1{
 }
 .politicasfoo{
     grid-area: logo;
+    display: flex;
+    justify-content: center;
 }
 .nav ul{
     grid-area: nav;
+    /* display: flex;
+    justify-content: center; */
    
 
 }
 
 .terminosp{
     grid-area: titulo;
-    position: relative;
-    left:55px ;
+    /* display: flex;
+    justify-content: center; */
+    /* position: relative;
+    left:55px ; */
     
 }
 .politicasnav{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    /* position: relative;
     left: 15px;
+ */
 }
-
+.navheader{
+    display: flex;
+    justify-content: center;
+}
 .texto3{
      
-     font-size: 20px;
+     font-size: 19px;
+}
+.textofoo1{
+
 }
 main{
     grid-area: p;
@@ -341,22 +401,29 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.direc{
+    font-size: 15px;
+}
 .redes{
-    width: 100px;
+    width: 60px;
     height: 66px;
     display: flex;
     
 }
 .redes1{
     display: flex;
-    width: 100px;
-    height: 38px;
-    padding: 15px;
+    justify-content: center;
+    width: 100%;
+    
 }
 iframe{
     width: 100%;
 }
 
-}
+
 
     
+
+}
+
+
